@@ -1,8 +1,3 @@
-###Defining provider as aws###
-provider "aws" {
-  region = "var.aws_region"
-}
-
 ###Define Application load balancer###
 resource "aws_lb" "my_alb" {
   name= "my-alb"
